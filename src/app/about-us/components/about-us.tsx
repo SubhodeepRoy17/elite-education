@@ -139,9 +139,9 @@ export default function AboutUs() {
                   <div className="border-t border-white dark:border-gray-400 my-6 w-full"></div>
                 </div>
                 <p className="text-lg">
-                  P.S. - Abacus, Newtown, Action Area, IIE, Kolkata - 700161, 3rd Floor, Unit-311
+                  Unit :- 705, 7th floor, Aurora waterfront, Beside IEM Ashram building GN Block, Salt Lake sector 5, Kolkata: 700091
                   <br />
-                  <span className="font-semibold">Contact No.:</span> +91 9810921650
+                  <span className="font-semibold">Contact No.:</span> +91 99059-09990
                 </p>
               </div>
             </div>

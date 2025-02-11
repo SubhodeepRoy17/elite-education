@@ -33,9 +33,10 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="text-center lg:text-left">
             <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-            <p className="text-muted-foreground">support@meritnations.com</p>
-            <p className="text-muted-foreground">+91 98109-21650</p>
-            <p className="text-muted-foreground">P.S. - Abacus, Newtown, Action Area, IIE, Kolkata - 700161, 3rd Floor, Unit - 311</p>
+            <p className="text-muted-foreground">support@eliteeducation.co.in</p>
+            <p className="text-muted-foreground">+91 99059-09990</p>
+            <p className="text-muted-foreground">Unit :- 705, 7th floor, Aurora waterfront, Beside IEM Ashram building GN Block, Salt Lake sector 5, Kolkata: 700091
+            </p>
           </div>
 
           {/* Newsletter Subscription */}
@@ -51,7 +52,7 @@ export default function Footer() {
 
         {/* Copyright Text */}
         <div className="mt-8 text-center text-sm text-muted-foreground">
-          © 2023 MERIT NATIONS. All rights reserved.
+          © 2023 ELITE EDUCATION. All rights reserved.
         </div>
       </div>
     </footer>

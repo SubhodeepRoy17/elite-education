@@ -13,7 +13,7 @@ export default function ContactUsPage() {
             <div>
             <h1 className="text-4xl lg:text-5xl font-bold mb-4 lg:mb-6">Contact Us</h1>
             <p className="text-lg lg:text-xl mb-6 lg:mb-8" style={{fontFamily: 'Verdana' , fontStyle: 'italic'}}>
-                At Merit Nations, we&apos;re dedicated to guiding you toward your dream college and career—whether it&apos;s a top-tier B-School, an elite Engineering institute, a prestigious Medical college, or an MBA program that aligns with your aspirations.
+                At Elite Education, we&apos;re dedicated to guiding you toward your dream college and career—whether it&apos;s a top-tier B-School, an elite Engineering institute, a prestigious Medical college, or an MBA program that aligns with your aspirations.
             </p>
             </div>
             <div className="space-y-4">
@@ -32,7 +32,7 @@ export default function ContactUsPage() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
                 </svg>
-                admissions@example.edu
+                support@eliteeducation.co.in
             </p>
             <p className="flex items-center text-base lg:text-lg">
                 <svg
@@ -49,7 +49,7 @@ export default function ContactUsPage() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
                 </svg>
-                +1 (555) 123-4567
+                +91 99059-09990
             </p>
             </div>
         </div>
@@ -79,9 +79,9 @@ export default function ContactUsPage() {
                     </div>
 
                     <p className="mx-auto max-w-full text-primary-foreground/80 md:text-xl text-center">
-                    P.S. - Abacus, Newtown, Action Area, IIE, Kolkata - 700161, 3rd Floor, Unit-311
+                    Unit :- 705, 7th floor, Aurora waterfront, Beside IEM Ashram building GN Block, Salt Lake sector 5, Kolkata: 700091
                     <br />
-                    Contact No. : +91 9810921650
+                    Contact No. : +91 98109-21650
                     </p>
                 </div>
                 </div>

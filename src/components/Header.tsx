@@ -11,7 +11,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const [letterColors, setLetterColors] = useState(
-    "MERIT NATIONS".split("").map(() => "hsl(0, 100%, 50%)")
+    "ELITE EDUCATION".split("").map(() => "hsl(0, 100%, 50%)")
   )
 
   useEffect(() => {
@@ -42,17 +42,30 @@ export default function Header() {
         {/* Logo and Brand */}
         <Link href="/" className="flex items-center space-x-2">
           <Image src="/logo.png" alt="Merit Nations Logo" width={65} height={65} />
-          <span className="font-bold text-xl">
-            {"MERIT NATIONS".split("").map((letter, index) => (
-              <span
-                key={index}
-                style={{ color: letterColors[index] }}
-                className="inline-block transition-colors duration-300"
-              >
-                {letter}
-              </span>
-            ))}
-          </span>
+          <div className="font-bold text-xl inline-block">
+            <div className="flex">
+              {"ELITE".split("").map((letter, index) => (
+                <span
+                  key={index}
+                  style={{ color: letterColors[index] }}
+                  className="inline-block transition-colors duration-300"
+                >
+                  {letter}
+                </span>
+              ))}
+            </div>
+            <div className="flex -mt-1"> {/* Negative margin to minimize space */}
+              {"EDUCATION".split("").map((letter, index) => (
+                <span
+                  key={index}
+                  style={{ color: letterColors[index + 6] }} // Offset index for colors
+                  className="inline-block transition-colors duration-300"
+                >
+                  {letter}
+                </span>
+              ))}
+            </div>
+          </div>
         </Link>
 
         {/* Mobile Menu and Theme Toggle */}
@@ -133,7 +146,9 @@ export default function Header() {
         {/* Desktop Right Side Actions */}
         <div className="hidden md:flex items-center space-x-4">
           <ThemeToggle />
-          <Button>Get Started</Button>
+          <Link href={"/chatbot"}>
+          <Button className="bg-black dark:bg-white text-white dark:text-black hover:bg-primary/90">Get Started</Button>
+          </Link>
         </div>
 
         {/* Mobile Menu Overlay */}

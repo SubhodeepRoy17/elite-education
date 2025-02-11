@@ -41,9 +41,13 @@ export default function ContactForm() {
   if (isSubmitted) {
     return (
       <div className="flex flex-col items-center justify-center h-full">
-        <CheckCircleIcon className="w-24 h-24 text-green-500 mb-4" />
-        <h2 className="text-3xl font-bold text-gray-900 mb-2">Application Submitted!</h2>
-        <p className="text-lg text-gray-600">Thank you for your interest. We&apos;ll be in touch soon.</p>
+        <CheckCircleIcon className="w-24 h-24 text-green-500 dark:text-green-400 mb-4" />
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+          Application Submitted!
+        </h2>
+        <p className="text-lg text-gray-600 dark:text-gray-300">
+          Thank you for your interest. We&apos;ll be in touch soon.
+        </p>
       </div>
     )
   }

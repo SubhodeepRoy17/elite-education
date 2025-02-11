@@ -79,6 +79,21 @@
   font-size: 10rem;
 }
 
+@keyframes slide-up {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
 @keyframes wave {
   0%, 100% { color: hsl(var(--primary)); }
   25% { color: hsl(var(--secondary)); }

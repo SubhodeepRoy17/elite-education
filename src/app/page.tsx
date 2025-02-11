@@ -10,11 +10,14 @@ import { useState, useEffect } from "react"
 import Header from "@/components/Header"
 import Footer from "@/components/footer"
 import Slider from "react-slick"
+import ChatBot from "./chatbot/components/Chatbot"
+import FloatingChatButton from "./chatbot/components/FloatingChatButton"
 
-// You need to import slick carousel styles for the carousel to work properly
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import { motion } from "framer-motion"
+import EngineeringAdmissionsSection from "@/components/EngineeringAdmissionsSection"
+import NewsMarquee from "@/components/NewsMarquee"
 
 // Define custom arrow components
 interface CustomArrowProps {
@@ -49,6 +52,7 @@ const CustomNextArrow: React.FC<CustomArrowProps> = ({ onClick, ...props }) => (
 export default function HomePage() {
   const {} = useTheme()
   const [mounted, setMounted] = useState(false)
+  const [isFloatingChatOpen, setIsFloatingChatOpen] = useState(false)
 
     const collegeDetails = [
     {
@@ -181,6 +185,8 @@ export default function HomePage() {
     ],
   }
 
+  
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -197,12 +203,17 @@ export default function HomePage() {
                   Expert guidance for Engineering, Medical, and MBA admissions to help you achieve your dreams.
                 </p>
               </div>
+              <Link href="/chatbot">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
                 Request a Free Consultation
               </Button>
+              </Link>
             </div>
           </div>
         </section>
+
+        <NewsMarquee />
+        <EngineeringAdmissionsSection />
 
         {/* Our Services Section with Carousel */}
         <section id="services" className="w-full py-12 md:py-24 lg:py-32 bg-background">
@@ -368,6 +379,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+        <FloatingChatButton isOpen={isFloatingChatOpen} onToggle={() => setIsFloatingChatOpen(!isFloatingChatOpen)}>
+        <ChatBot isFloating={true} />
+      </FloatingChatButton>
       </main>
       <Footer />
     </div>
