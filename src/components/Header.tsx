@@ -41,7 +41,7 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo and Brand */}
         <Link href="/" className="flex items-center space-x-2">
-          <Image src="/logo.png" alt="Merit Nations Logo" width={65} height={65} />
+          <Image src="/logo_final.png" alt="Merit Nations Logo" width={120} height={120} />
           <div className="font-bold text-xl inline-block">
             <div className="flex">
               {"ELITE".split("").map((letter, index) => (
