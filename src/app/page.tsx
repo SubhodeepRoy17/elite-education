@@ -327,7 +327,7 @@ export default function HomePage() {
                   <h3 className="text-xl font-bold">{student.name}</h3>
                   <p className="text-sm text-muted-foreground">Admitted to {student.university}</p>
                   <p className="mt-4 text-muted-foreground">
-                    &quot;MERIT NATIONS helped me achieve my dream of studying at a top university. Their guidance was invaluable!&quot;
+                    &quot;ELITE EDUCATION helped me achieve my dream of studying at a top university. Their guidance was invaluable!&quot;
                   </p>
                 </div>
               </div>
