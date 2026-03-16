@@ -35,7 +35,8 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
             <p className="text-muted-foreground">support@eliteeducation.co.in</p>
             <p className="text-muted-foreground">+91 99059-09990</p>
-            <p className="text-muted-foreground">Unit :- 705, 7th floor, Aurora waterfront, Beside IEM Ashram building GN Block, Salt Lake sector 5, Kolkata: 700091
+            <p className="text-muted-foreground">Elite education Unit - 303, 3rd floor, Merlin matrix,
+              DN 10, Salt lake sector V, Kolkata - 700091
             </p>
           </div>
 
