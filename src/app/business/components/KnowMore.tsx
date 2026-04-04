@@ -10,29 +10,29 @@ export default function KnowMore({ activeProgram }: KnowMoreProps) {
     "BBA": [
         {
             title: "Top Career Opportunities After a BBA Degree",
-            image: "/placeholder.svg?height=200&width=300",
+            image: "https://via.placeholder.com/300x200?text=BBA+Careers",
         },
         { 
             title: "The Importance of Business Management Skills in Today’s Economy", 
-            image: "/placeholder.svg?height=200&width=300" 
+            image: "https://via.placeholder.com/300x200?text=Business+Skills" 
         },
         { 
             title: "BBA vs Other Management Degrees: Which One is Right for You?", 
-            image: "/placeholder.svg?height=200&width=300" 
+            image: "https://via.placeholder.com/300x200?text=BBA+vs+Others" 
         },
     ],
     "BCA": [
         { 
             title: "Career Opportunities After a BCA Degree", 
-            image: "/placeholder.svg?height=200&width=300" 
+            image: "https://via.placeholder.com/300x200?text=BCA+Careers" 
         },
         { 
             title: "The Role of Programming and Software Development in BCA", 
-            image: "/placeholder.svg?height=200&width=300" 
+            image: "https://via.placeholder.com/300x200?text=Programming" 
         },
         { 
             title: "Emerging Trends in Computer Applications and IT Careers", 
-            image: "/placeholder.svg?height=200&width=300" 
+            image: "https://via.placeholder.com/300x200?text=IT+Trends" 
         },
     ],
 }

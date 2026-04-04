@@ -16,11 +16,12 @@ export default function CollegeCard({ name, image, applyLink }: CollegeCardProps
       className="flex-shrink-0 w-64 h-96 bg-card text-card-foreground rounded-lg overflow-hidden shadow-lg relative group"
     >
       <Image
-        src={image || "/placeholder.svg"}
+        src={image || "/file.svg"}
         alt={name}
         layout="fill"
         objectFit="cover"
         className="absolute inset-0 z-0"
+        unoptimized
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10 transition-opacity duration-300 group-hover:opacity-0" />
       <div className="relative z-20 h-full flex items-center justify-center p-4 transition-opacity duration-300 group-hover:opacity-0">

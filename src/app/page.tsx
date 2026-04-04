@@ -253,6 +253,7 @@ export default function HomePage() {
                         width={300}
                         height={300}
                         className="w-full h-full object-cover"
+                        unoptimized
                       />
                     </div>
                     <h3 className="text-xl font-bold">{college.name}</h3>

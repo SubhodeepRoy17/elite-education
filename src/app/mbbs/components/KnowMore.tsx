@@ -39,11 +39,12 @@ export default function KnowMore() {
             className="border border-gray-300 dark:border-gray-600 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <Image
-              src={article.image || "/placeholder.svg"}
+              src={article.image || "/file.svg"}
               alt={article.title}
               width={300}
               height={200}
               className="w-full h-48 object-cover"
+              unoptimized
             />
             <div className="p-4">
               <a href={article.link} className="text-lg font-bold hover:underline font-verdana">

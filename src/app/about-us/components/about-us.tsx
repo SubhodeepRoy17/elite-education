@@ -68,20 +68,14 @@ export default function AboutUs() {
           </div>
 
           {/* Right-side Image */}
-          <motion.div
-            className="flex justify-center"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 1.2 }}
-          >
             <Image
               src="/cover2.png"
               alt="College students"
               width={600}
               height={400}
               className="rounded-lg shadow-lg"
+              unoptimized
             />
-          </motion.div>
         </motion.div>
 
         {/* Our Team Section */}
@@ -106,7 +100,7 @@ export default function AboutUs() {
                 transition={{ duration: 0.5, delay: 1.6 + index * 0.2 }}
               >
                 <Image
-                  src={`/profile.png?height=150&width=150&text=${member.name}`}
+                  src={`https://via.placeholder.com/150x150?text=${member.name}`}
                   alt={member.name}
                   width={150}
                   height={150}

@@ -10,15 +10,15 @@ export default function KnowMore({ activeProgram }: KnowMoreProps) {
     "B.Sc": [
       {
         title: "The Importance of Clinical Experience in B.Sc Nursing",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "https://via.placeholder.com/300x200?text=B.Sc+Nursing",
       },
-      { title: "Career Paths After B.Sc Nursing", image: "/placeholder.svg?height=200&width=300" },
-      { title: "Challenges and Rewards of B.Sc Nursing", image: "/placeholder.svg?height=200&width=300" },
+      { title: "Career Paths After B.Sc Nursing", image: "https://via.placeholder.com/300x200?text=B.Sc+Careers" },
+      { title: "Challenges and Rewards of B.Sc Nursing", image: "https://via.placeholder.com/300x200?text=B.Sc+Challenges" },
     ],
     "M.Sc": [
-      { title: "Advanced Nursing Practices: The Role of M.Sc Nurses", image: "/placeholder.svg?height=200&width=300" },
-      { title: "Research Opportunities in M.Sc Nursing", image: "/placeholder.svg?height=200&width=300" },
-      { title: "Leadership in Nursing: How M.Sc Prepares You", image: "/placeholder.svg?height=200&width=300" },
+      { title: "Advanced Nursing Practices: The Role of M.Sc Nurses", image: "https://via.placeholder.com/300x200?text=M.Sc+Nursing" },
+      { title: "Research Opportunities in M.Sc Nursing", image: "https://via.placeholder.com/300x200?text=M.Sc+Research" },
+      { title: "Leadership in Nursing: How M.Sc Prepares You", image: "https://via.placeholder.com/300x200?text=M.Sc+Leadership" },
     ],
   }
 
