@@ -95,9 +95,7 @@ export default function ContactUsPage() {
                   <div>
                     <h4 className="font-semibold text-neutral-900 dark:text-white">Our Office</h4>
                     <p className="text-neutral-500 text-sm mt-2 leading-relaxed">
-                      Unit: 705, 7th floor, Aurora Waterfront, <br/>
-                      Beside IEM Ashram building GN Block, <br/>
-                      Salt Lake Sector 5, Kolkata: 700091
+                    Elite education Unit - 303, 3rd floor, Merlin matrix, DN 10, Salt lake sector V, Kolkata - 700091
                     </p>
                   </div>
                 </div>
