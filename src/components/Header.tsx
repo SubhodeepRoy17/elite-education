@@ -82,6 +82,9 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
+          <Link className="text-sm font-medium hover:text-primary hover:underline underline-offset-4 transition-colors" href="/">
+            Home
+          </Link>
           {/* Institutions Dropdown with delay and proper interaction */}
           <div 
             className="relative group"
@@ -155,6 +158,9 @@ export default function Header() {
         {isMenuOpen && (
           <div className="fixed inset-0 top-16 bg-background/95 backdrop-blur-sm md:hidden">
             <nav className="flex flex-col p-6 space-y-6 bg-background">
+              <Link className="text-lg font-medium hover:bg-accent hover:text-accent-foreground p-3 rounded-lg transition-colors" href="/" onClick={() => setIsMenuOpen(false)}>
+                Home
+              </Link>
               {/* Institutions Dropdown in Mobile Menu */}
               <div className="relative">
                 <button 
