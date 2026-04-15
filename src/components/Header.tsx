@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
+
 import { Menu, X, ChevronDown } from "lucide-react"
 
 export default function Header() {
@@ -70,7 +70,6 @@ export default function Header() {
 
         {/* Mobile Menu and Theme Toggle */}
         <div className="flex items-center md:hidden space-x-2">
-          <ThemeToggle />
           <Button 
             variant="ghost" 
             size="icon" 
@@ -148,9 +147,8 @@ export default function Header() {
 
         {/* Desktop Right Side Actions */}
         <div className="hidden md:flex items-center space-x-4">
-          <ThemeToggle />
           <Link href={"/chatbot"}>
-          <Button className="bg-black dark:bg-white text-white dark:text-black hover:bg-primary/90">Get Started</Button>
+          <Button className="bg-blue-600 text-white hover:bg-blue-700 font-semibold shadow-md shadow-blue-500/20">Get Started</Button>
           </Link>
         </div>
 
